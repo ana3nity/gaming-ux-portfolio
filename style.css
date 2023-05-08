@@ -2,6 +2,10 @@ body {
     font-family: 'Open Sans', sans-serif;
   }
 
+a {
+  text-decoration: none;
+}
+
   /*Primary Navigation*/
 
   header {
@@ -17,18 +21,11 @@ body {
   #nav-list{
     display: flex;
     justify-content: space-between;
+    text-align: middle;
   }
   
   li{
     list-style: none;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    background-color: #808080;
   }
   
   .a-link{
@@ -51,10 +48,6 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: left;
-    margin: auto;
-    margin: 20%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    border-radius: 20px;
   }
   
 .hero-content {
@@ -91,9 +84,10 @@ body {
   }
   
   /* STYLE FOR PROJECT SECTION */
-.projects {
+#projects {
     align-items: center;
     margin: 20%;
+    padding-top: 10vh;
 }
 
   .my-projects-header{
@@ -148,7 +142,7 @@ body {
     text-transform: uppercase;
   }
   
-  .contact{
+  #contact{
     background-color: #fff;
     width: 100%;
     height: 40vh;
