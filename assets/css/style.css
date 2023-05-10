@@ -44,6 +44,18 @@ h6,
   font-family: "Raleway", sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#profile-photo {
+  border-radius: 100%;
+  width: auto;
+  text-align: center;
+  padding: 2rem;
+}
+
 .section {
   padding: 7rem 0;
 }
