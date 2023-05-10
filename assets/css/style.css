@@ -23,6 +23,17 @@ a:hover {
   color: #000;
 }
 
+button {/
+  border: #ABB0B8 solid 2px;
+  padding: 0.5rem 1rem;
+}
+
+button:hover {
+  color: #fff;
+  background-color: darkgrey;
+  transition: 0.3s;
+}
+
 h1,
 h2,
 h3,
@@ -479,6 +490,12 @@ h6,
   color: #000;
 }
 
+.social {
+  gap: 2rem;
+  padding-top: 2rem;
+  font-size: x-large;
+}
+
 .social a {
   display: inline-block;
   width: 50px;
@@ -499,5 +516,7 @@ h6,
 }
 
 .social a:hover {
-  color: #000;
+  color: #fff;
+  background-color: #0d1e2d;
+  transition: 0.3s;
 }
