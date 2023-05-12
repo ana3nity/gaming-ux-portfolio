@@ -51,9 +51,10 @@ img {
 
 #profile-photo {
   border-radius: 100%;
-  width: auto;
+  width: 20vw;
   text-align: center;
   padding: 2rem;
+  object-fit: cover;
 }
 
 .section {
